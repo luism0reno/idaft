@@ -1,0 +1,107 @@
+.fila {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	position: absolute;
+  	transform: translate(-50%, -50%);
+	width: 35%;
+    height: 17%;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+
+
+#fila1 {
+  	top: 15%; 
+  	left: 25%;
+}
+
+#fila2 {
+  	top: 35%; 
+  	left: 25%;
+}
+
+#fila3 {
+  	top: 55%;
+  	left: 25%;
+}
+
+#fila4 {
+  	top: 75%; 
+  	left: 25%;
+}
+
+#fila5{
+	top: 15%;
+	left: 70%;
+}
+
+#fila6{
+	top: 35%;
+	left: 70%;
+}
+
+#fila7{
+	top: 55%;
+	left: 70%;
+}
+
+#fila8{
+	top: 75%;
+	left: 70%;
+}
+
+.boton {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	font-family: calibri;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.botona {
+	background-color: #004c4c;
+	color: #72edf0;
+	border: 2px solid #72edf0;
+}
+
+.botonb {
+	background-color: #013E00;
+	color: #00B95C;
+	border: 2px solid #00FF40;
+}
+
+.botona:hover {
+	background-color: #00AAAE;
+}
+
+.botonb:hover {
+	background-color: #007122;
+}
+
+.botona:active {
+	background-color: #00FFFF;
+}
+
+.botonb:active {
+	background-color: #00D824;
+}
+
+body {
+	background: black;
+	
+}
+
+audio {
+	position: absolute;
+	top: 90%; 
+  	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
