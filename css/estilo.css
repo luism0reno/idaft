@@ -1,15 +1,9 @@
 .fila {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	position: absolute;
   	transform: translate(-50%, -50%);
 	width: 35%;
     height: 17%;
-    display: -webkit-flex;
-    -webkit-justify-content: space-between;
     justify-content: space-between;
     align-items:center;
     padding: 10px;
@@ -57,6 +51,9 @@
 }
 
 .boton {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 	text-align: center;
 	width: 100px;
 	height: 100px;
